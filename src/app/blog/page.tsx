@@ -14,7 +14,7 @@ const Page = () => {
               <p className="tracking-wider">A statically generated blog example using Next.js and Markdown.</p>
             </div>
             <div className="h-[600px] w-full rounded-md overflow-hidden">
-              <Image src="/assets/images/covers/cover01.webp" alt="cover" width={2000} height={10000} priority />
+              <Image src="/assets/images/covers/cover02.webp" alt="cover" width={2000} height={10000} priority />
             </div>
           </div>
         </div>
