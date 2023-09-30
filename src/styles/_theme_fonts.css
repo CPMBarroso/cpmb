@@ -24,10 +24,10 @@
     font-family: "Poppins";
     src: url('/src/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     src: url('/src/assets/fonts/Poppins/Poppins-Bold.eot');
-    /* src: url('/src/assets/fonts/Poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+    src: url('/src/assets/fonts/Poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
          url('/src/assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
-         url('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff'); */
-    font-weight: 700;
+         url('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
   }
   
