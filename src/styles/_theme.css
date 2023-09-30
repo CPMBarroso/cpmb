@@ -5,7 +5,14 @@
 @layer base {
   html {
     font-family: "Poppins";
+    /* @apply text-base */
     -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  .text-edge-outline {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   }
 }
 
