@@ -1,11 +1,14 @@
+import Logo from "@assets/icons/logo"
 import Particles from "@components/particles"
+
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden ">
       <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100} />
       <div className="absolute inset-0 flex items-center justify-center">
-        <svg
+        <Logo className="animate-dash opacity-5" width="632" height="632" color="#f97316"/>
+        {/* <svg
           width="632"
           height="632"
           viewBox="0 0 24 24"
@@ -22,7 +25,7 @@ export default function Home() {
             strokeLinecap="round"
             strokeLinejoin="round"
           ></path>
-        </svg>
+        </svg> */}
       </div>
       {/* <nav className="my-6 animate-pulse">
         <ul className="flex items-center justify-center">
