@@ -5,8 +5,8 @@
 @layer base {
   html {
     font-family: "Poppins";
-    /* @apply text-base */
     -webkit-tap-highlight-color: transparent;
+    @apply text-base text-zinc-300
   }
 }
 
@@ -14,9 +14,6 @@
   .text-edge-outline {
     -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
   }
-}
-
-@layer utilities {
   /* Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
     width: 0;

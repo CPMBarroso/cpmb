@@ -4,7 +4,7 @@ import "@styles/_theme.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "CPMB Blog",
+  title: "CPMB Freelancer",
   description: "Software engineer at cpmb.vercel.app",
 }
 
@@ -21,17 +21,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="bg-black">
-        <div className="relative flex flex-col min-h-screen">
+        {/* <div className="relative flex flex-col min-h-screen">
           <main
             className="relative grow"
             style={{
               minHeight: "-webkit-fill-available",
               WebkitOverflowScrolling: "touch",
             }}
-          >
+          > */}
             {children}
-          </main>
-        </div>
+          {/* </main>
+        </div> */}
       </body>
     </html>
   )

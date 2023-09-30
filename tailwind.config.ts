@@ -1,8 +1,9 @@
-import type { Config } from "tailwindcss"
+const defaultTheme = require("tailwindcss/defaultTheme")
 
-const defaultTheme = require("tailwindcss/defaultTheme");
-const settingsScreens = require("./tailwind.settings.fontSizes")
-const settingsFontSizes = require("./tailwind.settings.screens")
+const settingsScreens = require("./tailwind.settings.screens")
+const settingsFontSizes = require("./tailwind.settings.fontSizes")
+
+import type { Config } from "tailwindcss"
 
 const config: Config = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
@@ -16,6 +17,7 @@ const config: Config = {
         "fade-left": "fade-left 3s ease-in-out forwards",
         "fade-right": "fade-right 3s ease-in-out forwards",
         title: "title 3s ease-out forwards",
+        dash: "dash 8s linear forwards",
       },
       keyframes: {
         "fade-in": {
@@ -72,15 +74,35 @@ const config: Config = {
           },
 
           "100%": {
-            "line-height": "100%",
+            "line-height": "120%",
             opacity: "100%",
+          },
+        },
+        dash: {
+          to: {
+            strokeDashoffset: "1000",
+            strokeDasharray: "350"
+          },
+        },
+        filling: {
+          "0%": {
+            fill: "#bac736",
+            opacity: "0",
+          },
+          "90%": {
+            fill: "#bac736",
+            letterSpacing: "0.25em",
+            opacity: "0",
+          },
+          "100%": {
+            fill: "#bac736",
+            letterSpacing: "0.25em",
+            opacity: "1",
           },
         },
       },
     },
   },
-  plugins: [
-    require("@headlessui/tailwindcss")({ prefix: "ui" })
-  ],
+  plugins: [require("@headlessui/tailwindcss")({ prefix: "ui" })],
 }
 export default config
