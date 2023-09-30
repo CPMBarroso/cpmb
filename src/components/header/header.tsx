@@ -3,36 +3,14 @@ import React from "react"
 
 const Header = () => {
   return (
-    <header className="sticky top-0 border-b border-zinc-800">
+    <header className="sticky top-0 bg-neutral-900 border-b border-zinc-800 z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between py-6">
-          <div className="flex items-center space-x-4">
-            <a href="/" className="group flex items-center space-x-2">
-              <ArrowCircleLeft
-                variant="Broken"
-                size="22"
-                color="#FF8A65"
-                className=" group-hover:scale-125 transition-all ease-linear duration-75"
-              />
-              {/* <span className="text-sm">Back</span> */}
-            </a>
-            <span className="w-px h-6 bg-zinc-800"/>
-            <a className="group">
-              <button className="text-sm group-hover:text-orange-500">Blog</button>
-            </a>
-            <a className="group">
-              <button className="text-sm group-hover:text-orange-500">Projects</button>
-            </a>
-            <a className="group">
-              <button className="text-sm group-hover:text-orange-500">Contacts</button>
-            </a>
-          </div>
-          <div className="flex items-center space-x-6 text-sm">
-
-            <div className="flex items-center justify-end space-x-2">
+        <div className="flex items-center justify-between py-4">
+          <div className="flex items-center text-lg space-x-6">
+          <div className="flex items-center space-x-2">
               <svg
-                width="32"
-                height="32"
+                width="42"
+                height="42"
                 viewBox="0 0 24 24"
                 fill="none"
                 //   strokeDasharray="300"
@@ -49,7 +27,21 @@ const Header = () => {
                 ></path>
               </svg>
               <div className=" font-bold text-md select-none">CPMB</div>
+              <div className="w-px h-7 bg-zinc-700"/>
+              <div className="text-xs text-zinc-400">Frontend Developer Freelancer</div>
             </div>
+          </div>
+          <div className="flex items-center justify-end space-x-4">
+          <a href="/" className="group flex items-center space-x-2">
+              <ArrowCircleLeft
+                variant="Broken"
+                size="22"
+                color="#FF8A65"
+                className=" group-hover:scale-125 transition-all ease-linear duration-75"
+              />
+              {/* <span className="text-sm">Back</span> */}
+            </a>
+
           </div>
         </div>
       </div>
