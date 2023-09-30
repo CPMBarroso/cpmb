@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center w-screen h-screen bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden ">
       <Particles className="absolute inset-0 -z-10 animate-fade-in" quantity={100} />
       <div className="absolute inset-0 flex items-center justify-center">
-        <Logo className="animate-dash opacity-5" width="632" height="632" color="#f97316"/>
+        <Logo className="animate-dash opacity-20" width="632" height="632" color="#f97316"/>
         {/* <svg
           width="632"
           height="632"
