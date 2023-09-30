@@ -1,0 +1,15 @@
+/* Define your colors --- please input rgb color (ex: 22 33 44) */
+
+@layer base {
+  :root {
+    --color-primary: 249 115 22;
+    --color-secondary: 224 242 254;
+    --color-text: 224 242 254;
+    --color-success: 186 230 253;
+    --color-info: 125 211 252;
+    --color-warning: 56 189 248;
+    --color-danger: 14 165 233;
+    --color-light: 2 132 199;
+    --color-dark: 3 105 161;
+  }
+}

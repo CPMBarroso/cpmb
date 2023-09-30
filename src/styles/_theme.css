@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins";
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    scrollbar-color: transparent transparent;
+  }
+
+  .no-scrollbar::-webkit-scrollbar-thumb:horizontal,
+  .no-scrollbar::-webkit-scrollbar-thumb:vertical {
+    background: transparent;
+    display: none;
+  }
+}
