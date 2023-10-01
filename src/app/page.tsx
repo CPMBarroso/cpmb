@@ -18,7 +18,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center">
         {/* top text */}
-        <div className="max-w-2xl mb-2 md:mb-8 text-center animate-fade-in">
+        <div className="max-w-2xl mb-2 md:mb-8 px-4 text-center animate-fade-in">
           <h2 className="text-sm italic text-zinc-500 select-none">
             #Frontend<span className="mx-2 text-orange-500">#Developer</span>#Freelancer
           </h2>
@@ -37,7 +37,7 @@ export default function Home() {
         </a>
         <div className="w-screen h-px animate-glow block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* bottom text */}
-        <div className="max-w-2xl mt-2 md:mt-8 text-center animate-fade-in">
+        <div className="max-w-2xl mt-2 md:mt-8 px-4 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 select-none">
             Hi, my name is Pedro, i&apos;am an Frontend Developer in <span className="text-orange-500">React.js</span>,{" "}
             <span className="text-orange-500">Next.js</span> and <span className="text-orange-500">Tailwind CSS</span>, turned full-time
