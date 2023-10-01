@@ -13,9 +13,23 @@ const Page = () => {
               </h2>
               <p className="tracking-wider">A statically generated blog example using Next.js and Markdown.</p>
             </div>
-            <div className="h-[600px] w-full rounded-md overflow-hidden">
+            {/* <div className="h-[600px] w-full rounded-md overflow-hidden">
               <Image src="/assets/images/covers/cover02.webp" alt="cover" width={2000} height={10000} priority />
-            </div>
+            </div> */}
+            <p className="text-2xs ...">The quick brown fox ...</p>
+            <p className="text-xs ...">The quick brown fox ...</p>
+            <p className="text-sm ...">The quick brown fox ...</p>
+            <p className="text-base ...">The quick brown fox ...</p>
+            <p className="text-lg ...">The quick brown fox ...</p>
+            <p className="text-xl ...">The quick brown fox ...</p>
+            <p className="text-2xl ...">The quick brown fox ...</p>
+            <p className="text-3xl ...">The quick brown fox ...</p>
+            <p className="text-4xl ...">The quick brown fox ...</p>
+            <p className="text-5xl ...">The quick brown fox ...</p>
+            <p className="text-6xl ...">The quick brown fox ...</p>
+            <p className="text-7xl ...">The quick brown fox ...</p>
+            <p className="text-8xl ...">The quick brown fox ...</p>
+            <p className="text-9xl ...">The quick brown fox ...</p>
           </div>
         </div>
       </section>

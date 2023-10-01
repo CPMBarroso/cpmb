@@ -26,7 +26,7 @@ const Header = () => {
                   strokeLinejoin="round"
                 ></path>
               </svg>
-              <div className=" font-bold text-md select-none">CPMB</div>
+              <div className="font-bold text-md select-none mb-1">cpmb</div>
               <div className="w-px h-7 bg-zinc-700"/>
               <div className="text-xs text-zinc-400">Frontend Developer Freelancer</div>
             </div>

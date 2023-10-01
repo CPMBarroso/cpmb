@@ -1,11 +1,10 @@
 import "@styles/_theme_colors.css"
-// import "@styles/_theme_fonts.css"
 import "@styles/_theme_custom.css"
 import "@styles/_theme.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "CPMB Freelancer",
+  title: "cpmb |Frontend Developer Freelancer",
   description: "Software engineer at cpmb.vercel.app",
 }
 

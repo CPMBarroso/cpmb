@@ -20,7 +20,8 @@ const config: Config = {
         "fade-left": "fade-left 3s ease-in-out forwards",
         "fade-right": "fade-right 3s ease-in-out forwards",
         title: "title 3s ease-out forwards",
-        dash: "dash 8s linear forwards",
+        filling: "filling 5s linear forwards",
+        dash: "dash 5s linear forwards, filling 5s linear forwards",
       },
       keyframes: {
         "fade-in": {
@@ -64,43 +65,41 @@ const config: Config = {
         },
         title: {
           "0%": {
-            "line-height": "0%",
+            height: "0",
             "letter-spacing": "0.25em",
             opacity: "0",
           },
           "25%": {
-            "line-height": "0%",
+            height: "0",
             opacity: "0%",
           },
           "80%": {
+            height: "120",
             opacity: "100%",
           },
 
           "100%": {
-            "line-height": "120%",
+            height: "120",
             opacity: "100%",
           },
         },
         dash: {
           to: {
-            strokeDashoffset: "1000",
-            strokeDasharray: "350",
+            strokeDashoffset: "0",
           },
         },
         filling: {
           "0%": {
-            fill: "#bac736",
-            opacity: "0",
+            fill: "#fff",
+            fillOpacity: "0",
           },
           "90%": {
-            fill: "#bac736",
-            letterSpacing: "0.25em",
-            opacity: "0",
+            fill: "#fff",
+            fillOpacity: "0",
           },
           "100%": {
-            fill: "#bac736",
-            letterSpacing: "0.25em",
-            opacity: "1",
+            fill: "#fff",
+            fillOpacity: "1",
           },
         },
       },
