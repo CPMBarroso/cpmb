@@ -21,7 +21,7 @@
   }
   
   @font-face {
-     font-family: "poppins-bold";
+     font-family: "Poppins";
      src: local('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff'),
           local('/src/assets/fonts/Poppins/Poppins-Bold.woff2')  format('woff2'),
           local('/src/assets/fonts/Poppins/Poppins-Bold.ttf')  format('truetype');
