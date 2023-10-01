@@ -23,7 +23,7 @@ export default function Home() {
             #Frontend<span className="mx-2 text-orange-500">#Developer</span>#Freelancer
           </h2>
         </div>
-        <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        <div className="w-screen h-px animate-glow block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* lettering */}
         <a href="#" className="group w-full max-w-sm">
           <TextIcon
@@ -33,27 +33,9 @@ export default function Home() {
             animation="animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
             className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
           />
-          {/* <svg
-            height="120"
-            width="100%"
-            stroke="#fff"
-            strokeWidth="1"
-            strokeDasharray="600"
-            strokeDashoffset="600"
-            className="animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
-          >
-            <text
-              x="50%"
-              y="50%"
-              dominantBaseline="middle"
-              textAnchor="middle"
-              className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
-            >
-              cpmb
-            </text>
-          </svg> */}
+         
         </a>
-        <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
+        <div className="w-screen h-px animate-glow block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* bottom text */}
         <div className="max-w-2xl mt-4 md:mt-8 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 select-none">
