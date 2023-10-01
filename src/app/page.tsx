@@ -17,7 +17,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col items-center justify-center">
         {/* top text */}
-        <div className="max-w-2xl mb-6 text-center animate-fade-in">
+        <div className="max-w-2xl mb-8 text-center animate-fade-in">
           <h2 className="text-sm italic text-zinc-500 select-none">
             #Frontend<span className="mx-2 text-orange-500">#Developer</span>#Freelancer
           </h2>
