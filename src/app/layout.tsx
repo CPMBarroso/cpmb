@@ -1,5 +1,5 @@
 import "@styles/_theme_colors.css"
-import "@styles/_theme_fonts.css"
+// import "@styles/_theme_fonts.css"
 import "@styles/_theme_custom.css"
 import "@styles/_theme.css"
 import type { Metadata } from "next"
@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="bg-black font-poppins">{children}</body>
+      <body className="bg-black">{children}</body>
     </html>
   )
 }
