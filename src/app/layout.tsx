@@ -4,7 +4,7 @@ import "@styles/_theme.css"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "cpmb |Frontend Developer Freelancer",
+  title: "cpmb | Frontend Developer Freelancer",
   description: "Software engineer at cpmb.vercel.app",
 }
 

@@ -24,7 +24,7 @@ export default function Home() {
         </div>
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* lettering */}
-        <a href="/blog" className="group w-full max-w-sm">
+        <a href="#" className="group w-full max-w-sm">
           <svg
             height="120"
             width="100%"
