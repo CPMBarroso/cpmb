@@ -20,7 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="msapplication-TileColor" content="#ffffff" />
         <meta name="theme-color" content="#ffffff" />
       </head>
-      <body className="fixed bg-black">{children}</body>
+      <body className="bg-black">{children}</body>
     </html>
   )
 }
