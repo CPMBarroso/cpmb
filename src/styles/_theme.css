@@ -2,102 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  -ms-overflow-style: none; /* for Internet Explorer, Edge */
-  scrollbar-width: none; /* for Firefox */
-}
-body::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-}
-
 @layer base {
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Black.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Black.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Black.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Black.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Black.woff') format('woff');   
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraBold.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraBold.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-ExtraBold.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-ExtraBold.woff') format('woff');     
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Bold.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Medium.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Medium.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Medium.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Medium.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Regular.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Light.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Light.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Light.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Light.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Light.woff') format('woff');      
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraLight.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraLight.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-ExtraLight.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-ExtraLight.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-ExtraLight.woff') format('woff');  
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: "Poppins";
-    src: local('/src/assets/fonts/Poppins/Poppins-Thin.ttf') format('truetype');
-    src: local('/src/assets/fonts/Poppins/Poppins-Thin.eot');
-    src: local('/src/assets/fonts/Poppins/Poppins-Thin.eot?#iefix') format('embedded-opentype'),
-         local('/src/assets/fonts/Poppins/Poppins-Thin.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Thin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
   *:focus {
     @apply outline-none;
   }
@@ -105,6 +10,13 @@ body::-webkit-scrollbar {
     font-family: "Poppins";
     -webkit-tap-highlight-color: transparent;
     @apply text-base text-zinc-300;
+  }
+  body {
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+  }
+  body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
   }
 }
 
