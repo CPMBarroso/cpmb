@@ -21,12 +21,19 @@
   }
   
   @font-face {
-    font-family: "Poppins";
+     font-family: "poppins-bold";
+     src: local('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff'),
+          local('/src/assets/fonts/Poppins/Poppins-Bold.woff2')  format('woff2'),
+          local('/src/assets/fonts/Poppins/Poppins-Bold.ttf')  format('truetype');
+     font-weight: normal;
+     font-style: normal; 
+
+    /* font-family: "Poppins";
     src: local('/src/assets/fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     src: local('/src/assets/fonts/Poppins/Poppins-Bold.eot');
     src: local('/src/assets/fonts/Poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
          local('/src/assets/fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
-         local('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff');
+         local('/src/assets/fonts/Poppins/Poppins-Bold.woff') format('woff'); */
     font-weight: normal;
     font-style: normal;
   }
