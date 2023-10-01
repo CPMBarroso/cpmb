@@ -9,12 +9,12 @@ const config: Config = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   darkMode: "class",
   theme: {
-    fontFamily: {
-      sans: ['Poppins', ...defaultTheme.fontFamily.sans],
-   },
     screens: settingsScreens,
     fontSize: settingsFontSizes,
     extend: {
+      fontFamily: {
+        poppins: "var(--font-poppins)"
+      },
       animation: {
         "fade-in": "fade-in 3s ease-in-out forwards",
         "fade-left": "fade-left 3s ease-in-out forwards",
@@ -84,7 +84,7 @@ const config: Config = {
         dash: {
           to: {
             strokeDashoffset: "1000",
-            strokeDasharray: "350"
+            strokeDasharray: "350",
           },
         },
         filling: {
