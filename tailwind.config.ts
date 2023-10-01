@@ -10,7 +10,7 @@ const config: Config = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      sans: ["sans-serif", ...defaultTheme.fontFamily.sans],
     },
     screens: settingsScreens,
     fontSize: settingsFontSizes,
