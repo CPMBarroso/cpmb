@@ -1,10 +1,11 @@
 import Logo from "@assets/icons/logo"
+import TextIcon from "@assets/icons/textIcon"
 import Particles from "@components/particles"
 
 export default function Home() {
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center p-4 bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden">
-      <Particles className="absolute inset-0 animate-fade-in -z-10" quantity={100} />
+      <Particles className="fixed inset-0 animate-fade-in -z-10" quantity={100} />
       {/* logo */}
       <div className="absolute inset-0 flex items-center justify-center w-full -z-10">
         <Logo
@@ -25,14 +26,21 @@ export default function Home() {
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* lettering */}
         <a href="#" className="group w-full max-w-sm">
-          <svg
+          <TextIcon
+            text="cpmb"
+            strokeDasharray={600}
+            strokeDashoffset={600}
+            animation="animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
+            className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
+          />
+          {/* <svg
             height="120"
             width="100%"
             stroke="#fff"
             strokeWidth="1"
             strokeDasharray="600"
             strokeDashoffset="600"
-            className="object-cover animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
+            className="animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
           >
             <text
               x="50%"
@@ -43,7 +51,7 @@ export default function Home() {
             >
               cpmb
             </text>
-          </svg>
+          </svg> */}
         </a>
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* bottom text */}
