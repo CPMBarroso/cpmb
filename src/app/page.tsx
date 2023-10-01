@@ -13,12 +13,12 @@ export default function Home() {
           height="632"
           strokeDasharray={500}
           strokeDashoffset={500}
-          className="stroke-orange-500 opacity-10 animate-[dash_35s_linear_forwards]"
+          className="stroke-orange-500 opacity-25 animate-[dash_35s_linear_forwards]"
         />
       </div>
       <div className="flex flex-col items-center justify-center">
         {/* top text */}
-        <div className="max-w-2xl mb-8 text-center animate-fade-in">
+        <div className="max-w-2xl mb-4 md:mb-8 text-center animate-fade-in">
           <h2 className="text-sm italic text-zinc-500 select-none">
             #Frontend<span className="mx-2 text-orange-500">#Developer</span>#Freelancer
           </h2>
@@ -55,7 +55,7 @@ export default function Home() {
         </a>
         <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* bottom text */}
-        <div className="max-w-2xl mt-8 text-center animate-fade-in">
+        <div className="max-w-2xl mt-4 md:mt-8 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 select-none">
             Hi, my name is Pedro, i&apos;am an Frontend Developer in <span className="text-orange-500">React.js</span>,{" "}
             <span className="text-orange-500">Next.js</span> and <span className="text-orange-500">Tailwind CSS</span>, turned full-time
