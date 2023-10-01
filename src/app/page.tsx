@@ -34,7 +34,13 @@ export default function Home() {
             strokeDashoffset="600"
             className="object-cover animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
           >
-            <text x="50%" y="50%" dominantBaseline="middle" textAnchor="middle" className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent">
+            <text
+              x="50%"
+              y="50%"
+              dominantBaseline="middle"
+              textAnchor="middle"
+              className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
+            >
               cpmb
             </text>
           </svg>
@@ -43,10 +49,10 @@ export default function Home() {
         {/* bottom text */}
         <div className="max-w-2xl mt-8 text-center animate-fade-in">
           <h2 className="text-sm text-zinc-500 select-none">
-            Hi, my name is Pedro, i&apos;am an <span className="text-orange-500">Frontend Developer </span> in React.js, Next.js and
-            Tailwind CSS, turned full-time <span className="text-orange-500">freelance </span>
-            developer who you can trust to build you a great application that&apos;s intuitive and user friendly while also being delivered
-            on time and on budget.
+            Hi, my name is Pedro, i&apos;am an Frontend Developer in <span className="text-orange-500">React.js</span>,{" "}
+            <span className="text-orange-500">Next.js</span> and <span className="text-orange-500">Tailwind CSS</span>, turned full-time
+            freelance developer who you can trust to build you a great application that&apos;s intuitive and user friendly while also being
+            delivered on time and on budget.
           </h2>
         </div>
       </div>
