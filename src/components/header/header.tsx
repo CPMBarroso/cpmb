@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center text-lg space-x-6">
-          <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-2">
               <svg
                 width="42"
                 height="42"
@@ -27,12 +27,12 @@ const Header = () => {
                 ></path>
               </svg>
               <div className="font-bold text-md select-none mb-1">cpmb</div>
-              <div className="w-px h-7 bg-zinc-700"/>
+              <div className="w-px h-7 bg-zinc-700" />
               <div className="text-xs text-zinc-400">Frontend Developer Freelancer</div>
             </div>
           </div>
           <div className="flex items-center justify-end space-x-4">
-          <a href="/" className="group flex items-center space-x-2">
+            <a href="/" className="group flex items-center space-x-2">
               <ArrowCircleLeft
                 variant="Broken"
                 size="22"
@@ -40,7 +40,6 @@ const Header = () => {
               />
               <span className="text-sm text-zinc-400">Go Back</span>
             </a>
-
           </div>
         </div>
       </div>
