@@ -28,6 +28,7 @@ module.exports = {
   xs: clamp(-3),
   sm: clamp(-2),
   base: clamp(-1),
+  md: clamp(0),
   lg: clamp(1),
   xl: clamp(2),
   "2xl": clamp(3),

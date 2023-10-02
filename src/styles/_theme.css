@@ -7,7 +7,7 @@
     @apply outline-none;
   }
   html {
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     -webkit-tap-highlight-color: transparent;
     @apply text-base text-zinc-300;
   }

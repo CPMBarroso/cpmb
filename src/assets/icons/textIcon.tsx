@@ -11,7 +11,7 @@ interface TextIconIProps {
 const TextIcon = ({ text, strokeDasharray, strokeDashoffset, animation, className }: TextIconIProps) => {
   return (
     <svg
-      height="120"
+      height="130"
       width="100%"
       stroke="#fff"
       strokeWidth="1"

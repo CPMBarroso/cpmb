@@ -9,9 +9,6 @@ const config: Config = {
   content: ["./src/pages/**/*.{js,ts,jsx,tsx,mdx}", "./src/components/**/*.{js,ts,jsx,tsx,mdx}", "./src/app/**/*.{js,ts,jsx,tsx,mdx}"],
   darkMode: "class",
   theme: {
-    fontFamily: {
-      sans: ["sans-serif", ...defaultTheme.fontFamily.sans],
-    },
     screens: settingsScreens,
     fontSize: settingsFontSizes,
     extend: {
@@ -74,12 +71,12 @@ const config: Config = {
             opacity: "0%",
           },
           "80%": {
-            height: "120",
+            height: "130",
             opacity: "100%",
           },
 
           "100%": {
-            height: "120",
+            height: "130",
             opacity: "100%",
           },
         },

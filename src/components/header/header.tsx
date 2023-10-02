@@ -3,7 +3,7 @@ import React from "react"
 
 const Header = () => {
   return (
-    <header className="sticky top-0 bg-neutral-900 border-b border-zinc-800 z-50">
+    <header className="sticky top-0 bg-neutral-900/80 backdrop-blur-xl border-b border-zinc-800 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center text-lg space-x-6">
@@ -36,10 +36,9 @@ const Header = () => {
               <ArrowCircleLeft
                 variant="Broken"
                 size="22"
-                color="#FF8A65"
-                className=" group-hover:scale-125 transition-all ease-linear duration-75"
+                className="text-orange-500 group-hover:scale-125 transition-all ease-linear duration-75"
               />
-              {/* <span className="text-sm">Back</span> */}
+              <span className="text-sm text-zinc-400">Go Back</span>
             </a>
 
           </div>
