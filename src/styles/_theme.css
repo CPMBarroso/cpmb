@@ -1,12 +1,12 @@
 @font-face {
   font-family: "MonoSpec-SemiBold";
-  src: url(//static1.squarespace.com/static/6005a5e6e8c063189b6baf41/t/600ed9899dfc5a5337fa6773/1611585929994/monospec-semibold-webfont.eot),
+  src: url('/assets/fonts/Poppins.eot'),
     /* IE6-IE8 */
-      url(//static1.squarespace.com/static/6005a5e6e8c063189b6baf41/t/600ed586a2383a5eba79024d/1611584902142/monospec-semibold-webfont.woff2),
+      url('/assets/fonts/Poppins.woff2'),
     /* Super Modern Browsers */
-      url(//static1.squarespace.com/static/6005a5e6e8c063189b6baf41/t/600ed5078b37961aa1911909/1611584775642/monospec-semibold-webfont.woff),
+      url('/assets/fonts/Poppins.woff'),
     /* Pretty Modern Browsers */
-      url(//static1.squarespace.com/static/6005a5e6e8c063189b6baf41/t/600ed8b4bf04aa2bc2d5e7bf/1611585716659/monospec-semibold-webfont.ttf);
+      url('/assets/fonts/Poppins.ttf');
 }
 
 @tailwind base;
