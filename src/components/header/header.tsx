@@ -1,5 +1,5 @@
-import { ArrowCircleLeft } from "iconsax-react"
-import React from "react"
+import { ArrowCircleLeft } from "iconsax-react";
+import React from "react";
 
 const Header = () => {
   return (
@@ -8,15 +8,7 @@ const Header = () => {
         <div className="flex items-center justify-between py-4">
           <div className="flex items-center text-lg space-x-6">
             <div className="flex items-center space-x-2">
-              <svg
-                width="42"
-                height="42"
-                viewBox="0 0 24 24"
-                fill="none"
-                //   strokeDasharray="300"
-                //   strokeDashoffset="500"
-                //   className="animate-dash opacity-5"
-              >
+              <svg width="42" height="42" viewBox="0 0 24 24" fill="none">
                 <path
                   d="M11.4 2.4 6.3 7.5c-.2.2-.2.5 0 .7L8 9.9c.2.2.5.2.7 0l5.1-5.1c.2-.2.2-.5 0-.7l-1.7-1.7c-.2-.2-.5-.2-.7 0ZM15.3 6.3l-9 9c-.2.2-.2.5 0 .7L8 17.7c.2.2.5.2.7 0l9-9c.2-.2.2-.5 0-.7L16 6.3c-.2-.2-.5-.2-.7 0ZM19.2 10.2l-9 9c-.2.2-.2.5 0 .7l1.7 1.7c.2.2.5.2.7 0l9-9c.2-.2.2-.5 0-.7l-1.7-1.7c-.2-.2-.5-.2-.7 0ZM4.1 13.8l-1.7-1.7c-.2-.2-.2-.5 0-.7l1.7-1.7c.2-.2.5-.2.7 0l1.7 1.7c.2.2.2.5 0 .7l-1.7 1.7c-.2.2-.5.2-.7 0Z"
                   stroke="#f97316"
@@ -27,8 +19,8 @@ const Header = () => {
                 ></path>
               </svg>
               <div className="font-bold text-lg select-none mb-1">cpmb</div>
-              <div className="w-px h-7 bg-zinc-700" />
-              <div className="text-xs text-zinc-400">Frontend Developer Freelancer</div>
+              <div className="max-md:hidden w-px h-7 bg-zinc-700" />
+              <div className="max-md:hidden text-xs text-zinc-400">Frontend Developer Freelancer</div>
             </div>
           </div>
           <div className="flex items-center justify-end space-x-4">
@@ -38,13 +30,13 @@ const Header = () => {
                 size="22"
                 className="text-orange-500 group-hover:scale-125 transition-all ease-linear duration-75"
               />
-              <span className="text-sm text-zinc-400">Go Back</span>
+              <span className="max-md:hidden text-sm text-zinc-400">Go Back</span>
             </a>
           </div>
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

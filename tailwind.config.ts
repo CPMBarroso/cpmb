@@ -70,12 +70,12 @@ const config: Config = {
             opacity: "0%",
           },
           "80%": {
-            height: "140",
+            height: "120",
             opacity: "100%",
           },
 
           "100%": {
-            height: "140",
+            height: "120",
             opacity: "100%",
           },
         },
