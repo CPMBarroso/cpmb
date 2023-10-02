@@ -25,13 +25,13 @@ export default function Home() {
         </div>
         <div className="w-screen h-px animate-glow block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* lettering */}
-        <a href="/blog" className="group w-full max-w-sm">
+        <a href="/blog" className="group w-full max-w-lg">
           <TextIcon
             text="cpmb"
-            strokeDasharray={600}
-            strokeDashoffset={600}
+            strokeDasharray={500}
+            strokeDashoffset={500}
             animation="animate-[title_3s_ease-out_forwards,dash_5s_linear_forwards,_filling_5s_linear_forwards] z-10"
-            className="font-bold text-9xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
+            className="font-bold text-8xl tracking-wider text-transparent text-edge-outline whitespace-nowrap bg-clip-text group-hover:fill-transparent"
           />
          
         </a>

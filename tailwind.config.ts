@@ -63,7 +63,6 @@ const config: Config = {
         title: {
           "0%": {
             height: "0",
-            "letter-spacing": "0.25em",
             opacity: "0",
           },
           "25%": {
@@ -71,12 +70,12 @@ const config: Config = {
             opacity: "0%",
           },
           "80%": {
-            height: "130",
+            height: "140",
             opacity: "100%",
           },
 
           "100%": {
-            height: "130",
+            height: "140",
             opacity: "100%",
           },
         },
