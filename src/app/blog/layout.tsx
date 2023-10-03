@@ -14,14 +14,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           WebkitOverflowScrolling: "touch",
         }}
       >
-
         {children}
       </main>
       <Footer />
     </div>
   )
 }
-function LocalFont(arg0: { src: string; variable: string; }) {
-  throw new Error("Function not implemented.");
+function LocalFont(arg0: { src: string; variable: string }) {
+  throw new Error("Function not implemented.")
 }
-
