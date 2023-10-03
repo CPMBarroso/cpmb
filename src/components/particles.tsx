@@ -36,10 +36,12 @@ export default function Particles({ className = "", quantity = 30, staticity = 5
 
   useEffect(() => {
     onMouseMove()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mousePosition.x, mousePosition.y])
 
   useEffect(() => {
     initCanvas()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [refresh])
 
   const initCanvas = () => {

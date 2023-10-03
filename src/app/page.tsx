@@ -3,6 +3,7 @@ import TextIcon from "@assets/icons/textIcon"
 import Particles from "@components/particles"
 
 export default function Home() {
+  
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center p-4 bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden">
       <Particles className="absolute inset-0 animate-fade-in -z-10" quantity={100} />
@@ -25,7 +26,7 @@ export default function Home() {
         </div>
         <div className="w-screen h-px animate-glow block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
         {/* lettering */}
-        <a href="/blog" className="group w-full max-w-sm">
+        <a href="#" className="group w-full max-w-sm">
           <TextIcon
             text="cpmb"
             strokeDasharray={600}
@@ -49,3 +50,4 @@ export default function Home() {
     </div>
   )
 }
+
