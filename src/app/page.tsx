@@ -1,12 +1,16 @@
 import Logo from "@assets/icons/logo"
 import TextIcon from "@assets/icons/textIcon"
+import Counter from "@components/counter"
 import Particles from "@components/particles"
 
 export default function Home() {
-  
+
+
+
   return (
     <div className="absolute inset-0 flex flex-col items-center justify-center p-4 bg-gradient-to-tl from-black via-zinc-600/20 to-black overflow-hidden">
       <Particles className="absolute inset-0 animate-fade-in -z-10" quantity={100} />
+      <Counter/>
       {/* logo */}
       <div className="absolute inset-0 flex items-center justify-center w-full -z-10">
         <Logo
