@@ -3,6 +3,7 @@ import "@styles/_theme_fonts.css"
 import "@styles/_theme_custom.css"
 import "@styles/_theme.css"
 import type { Metadata } from "next"
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 export const metadata: Metadata = {
   title: "cpmb | Frontend Developer Freelancer",
@@ -22,6 +23,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="bg-black">{children}</body>
+      <GoogleAnalytics gaId="G-BE8BNGBXMK" />
     </html>
   )
 }
