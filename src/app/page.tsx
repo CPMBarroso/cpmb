@@ -47,7 +47,7 @@ export default function Home() {
             Hi, my name is Pedro, i&apos;am an Frontend Developer in <span className="text-orange-500">React.js</span>,{" "}
             <span className="text-orange-500">Next.js</span> and <span className="text-orange-500">Tailwind CSS</span>, turned full-time
             freelance developer who you can trust to build you a great application that&apos;s intuitive and user friendly while also being
-            delivered on time and on budget.
+            delivered on time and on budget.<br/>You can contact me at <a href="mailto:cpmbarroso@gmail.com" className="text-orange-500">cpmbarroso@gmail.com</a>.
           </h2>
         </div>
       </div>
